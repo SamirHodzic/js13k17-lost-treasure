@@ -350,27 +350,9 @@ let lvl_2 = {
           "x": 144.201257861635,
           "y": 95.6792452830189
         }
-      ],
-      "opacity": 1,
-      "type": "objectgroup",
-      "visible": true,
-      "x": 0,
-      "y": 0
+      ]
     }
-  ],
-  "nextobjectid": 26,
-  "orientation": "orthogonal",
-  "renderorder": "right-down",
-  "tiledversion": "1.0.2",
-  "tileheight": 16,
-  "tilesets": [{
-    "firstgid": 1,
-    "source": "..\/..\/..\/Desktop\/j13k_maps\/dung3.tsx"
-  }],
-  "tilewidth": 16,
-  "type": "map",
-  "version": 1,
-  "width": 24
+  ]
 };
 
 export { lvl_2 };
