@@ -14,6 +14,7 @@ body {
 }
 
 #game {
+  display: none;
   width: 100%;
   height: 100%;
   border: 5px ridge #483d8b;

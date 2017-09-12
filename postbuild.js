@@ -4,7 +4,7 @@ const archiver = require('archiver')
 fs.unlinkSync('./dist/script.js')
 fs.unlinkSync('./dist/style.css')
 
-let output = fs.createWriteStream('./dist/build.zip')
+let output = fs.createWriteStream('./dist/lost-treasure.zip')
 let archive = archiver('zip', {
   zlib: { level: 9 } // set compression to best
 })
