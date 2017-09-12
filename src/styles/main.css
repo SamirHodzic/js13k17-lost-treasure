@@ -1,0 +1,85 @@
+body {
+  background: #111;
+}
+
+.game-container {
+  position: absolute;
+  width: 512px;
+  height: 425px;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+#game {
+  width: 100%;
+  height: 100%;
+  border: 5px ridge #483d8b;
+}
+
+#menus {
+  z-index: 999;
+  display: block;
+  width: 526px;
+  height: 439px;
+  position: absolute;
+  top: 0;
+  transition: all 0.5s ease;
+}
+
+#renders {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: block;
+}
+
+@keyframes fadeinout {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-o-keyframes fadeinout {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes fadeinout {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes fadeinout {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
